@@ -111,6 +111,8 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
         
         ttl_dob = customer_final["DOB"]
 
+    Plot Execution
+   
         fig,ax =plt.subplots(nrows=2,ncols=2,figsize=(10,10))
         sns.histplot(ax=ax[0,0],data=ttl_amt,kde=True,bins=30)
         sns.histplot(ax=ax[0,1],data=ttl_tax,kde=True,bins=30)
