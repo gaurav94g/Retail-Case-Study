@@ -74,20 +74,20 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
     Sort the data of object data type
 
         customer_final.select_dtypes(object).columns
-    
-    d.1) Gender
+
+    Gender
 
         customer_final["Gender"].value_counts()
 
-    d.2) Store_Type
+    Store_Type
 
         customer_final["Store_type"].value_counts()
 
-    d.3) Prod_cat
+    Prod_cat
 
         customer_final["prod_cat"].value_counts()
     
-    d.4) Prod_subcat
+   Prod_subcat
 
         customer_final["prod_subcat"].value_counts()
 
