@@ -118,6 +118,8 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
         sns.histplot(ax=ax[1,1],data=ttl_dob,kde=True,bins=30)
         plt.show()
 
+![Histogram for continuous variable](https://github.com/gaurav94g/Retail-Case-Study/assets/117978888/05c4f298-595c-4feb-a597-e17dc276d364)
+
     3.2.) Histogram for categorical variable
 
         fig,ax = plt.subplots(ncols=1,nrows=2,figsize=(10,5))
