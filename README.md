@@ -139,6 +139,8 @@ A Retail store is required to analyze the day-to-day transactions and keep a tra
             plt.tight_layout()
             plt.show()
 
+![Histogram for categorical variable](https://github.com/gaurav94g/Retail-Case-Study/assets/117978888/988ecafc-55f0-4838-97b2-daaf15fcca6b)
+
 4. Calculate the following information using the merged dataset :
     
     a.) Time period of the available transaction data
